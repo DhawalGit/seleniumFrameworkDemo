@@ -1,0 +1,8 @@
+com\automationexcercise\testCases\TC02_UserLogin.class
+com\automationexcercise\automationUtilities\CustomListener.class
+com\automationexcercise\testCases\TC01_OpenLoginPage.class
+com\automationexcercise\pageClasses\HomePage.class
+com\automationexcercise\pageClasses\SignUpLoginPage.class
+com\automationexcercise\pageClasses\UserHomePage.class
+com\automationexcercise\automationUtilities\BaseSteps.class
+com\automationexcercise\automationUtilities\ExcelUtilities.class
