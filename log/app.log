@@ -321,3 +321,101 @@ java.net.SocketException: Connection reset
 01:38:46.707 [main]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Expected page title is: Automation Exercise - Signup / Login
 01:38:46.725 [main]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Actual Page tile is matching with expected page title value
 01:38:46.941 [main]INFO  com.automationexcercise.automationUtilities.BaseSteps - Closed  browser driver 
+02:20:30.349 [TestNG-tests-1]INFO  com.automationexcercise.automationUtilities.BaseSteps - Browser info passed from command line is :chrome
+02:20:30.723 [TestNG-tests-2]INFO  com.automationexcercise.automationUtilities.BaseSteps - Browser info passed from command line is :chrome
+02:20:31.463 [TestNG-tests-2]INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.119 (resolved driver for Chrome 127)
+02:20:31.463 [TestNG-tests-1]INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.119 (resolved driver for Chrome 127)
+02:20:31.503 [TestNG-tests-2]INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhawa\.cache\selenium\chromedriver\win64\127.0.6533.119\chromedriver.exe
+02:20:31.503 [TestNG-tests-1]INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhawa\.cache\selenium\chromedriver\win64\127.0.6533.119\chromedriver.exe
+02:20:34.864 [TestNG-tests-1]INFO  com.automationexcercise.automationUtilities.BaseSteps - url  from .properties file is :https://automationexercise.com/
+02:20:34.864 [TestNG-tests-2]INFO  com.automationexcercise.automationUtilities.BaseSteps - url  from .properties file is :https://automationexercise.com/
+02:20:34.864 [TestNG-tests-1]INFO  com.automationexcercise.automationUtilities.BaseSteps - Navigating to the URL
+02:20:34.864 [TestNG-tests-2]INFO  com.automationexcercise.automationUtilities.BaseSteps - Navigating to the URL
+02:20:37.950 [TestNG-tests-1]INFO  com.automationexcercise.testCases.TC01_OpenLoginPage - Click on signUp Or Log in Link
+02:20:38.509 [TestNG-tests-2]INFO  com.automationexcercise.testCases.TC02_UserLogin - Click on signUp Or Log in Link
+02:20:39.559 [TestNG-tests-1]INFO  com.automationexcercise.pageClasses.HomePage - Clicked on Sign up or Log in Link
+02:20:39.560 [TestNG-tests-1]INFO  com.automationexcercise.testCases.TC01_OpenLoginPage - verify page title
+02:20:39.564 [TestNG-tests-1]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Expected page title is: Automation Exercise - Signup / Login
+02:20:39.582 [TestNG-tests-1]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Actual Page tile is matching with expected page title value
+02:20:39.646 [AsyncHttpClient-1-7]WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+02:20:39.849 [TestNG-tests-1]INFO  com.automationexcercise.automationUtilities.BaseSteps - Closed  browser driver 
+02:20:39.996 [TestNG-tests-2]INFO  com.automationexcercise.pageClasses.HomePage - Clicked on Sign up or Log in Link
+02:20:39.997 [TestNG-tests-2]INFO  com.automationexcercise.testCases.TC02_UserLogin - verify page title
+02:20:39.999 [TestNG-tests-2]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Expected page title is: Automation Exercise - Signup / Login
+02:20:40.015 [TestNG-tests-2]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Actual Page tile is matching with expected page title value
+02:20:40.016 [TestNG-tests-2]INFO  com.automationexcercise.testCases.TC02_UserLogin - Enter  user name
+02:20:40.302 [TestNG-tests-2]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Entered user name : QAAutomationClasses@gmail.com
+02:20:40.306 [TestNG-tests-2]INFO  com.automationexcercise.testCases.TC02_UserLogin - Enter  password
+02:20:40.388 [TestNG-tests-2]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Entered password : QAAutomationClasses
+02:20:40.391 [TestNG-tests-2]INFO  com.automationexcercise.testCases.TC02_UserLogin - Click login Button
+02:20:42.363 [TestNG-tests-2]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Successfully clicked on login button
+02:20:42.371 [TestNG-tests-2]INFO  com.automationexcercise.testCases.TC02_UserLogin - Verify User home page title
+02:20:42.373 [TestNG-tests-2]INFO  com.automationexcercise.pageClasses.UserHomePage - Expected page title is: Automation Exercise
+02:20:42.390 [TestNG-tests-2]INFO  com.automationexcercise.pageClasses.UserHomePage - Actual Page tile is matching with expected page title value
+02:20:42.395 [TestNG-tests-2]INFO  com.automationexcercise.testCases.TC02_UserLogin - Click logout link
+02:20:44.014 [TestNG-tests-2]INFO  com.automationexcercise.pageClasses.UserHomePage - Clicked on logout link
+02:20:44.214 [TestNG-tests-2]INFO  com.automationexcercise.automationUtilities.BaseSteps - Closed  browser driver 
+02:21:04.308 [main]INFO  com.automationexcercise.automationUtilities.BaseSteps - Browser info passed from command line is :chrome
+02:21:04.699 [main]INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.119 (resolved driver for Chrome 127)
+02:21:04.720 [main]INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhawa\.cache\selenium\chromedriver\win64\127.0.6533.119\chromedriver.exe
+02:21:06.096 [main]INFO  com.automationexcercise.automationUtilities.BaseSteps - url  from .properties file is :https://automationexercise.com/
+02:21:06.097 [main]INFO  com.automationexcercise.automationUtilities.BaseSteps - Navigating to the URL
+02:21:09.056 [main]INFO  com.automationexcercise.testCases.TC02_UserLogin - Click on signUp Or Log in Link
+02:21:10.194 [main]INFO  com.automationexcercise.pageClasses.HomePage - Clicked on Sign up or Log in Link
+02:21:10.195 [main]INFO  com.automationexcercise.testCases.TC02_UserLogin - verify page title
+02:21:10.197 [main]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Expected page title is: Automation Exercise - Signup / Login
+02:21:10.206 [main]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Actual Page tile is matching with expected page title value
+02:21:10.208 [main]INFO  com.automationexcercise.testCases.TC02_UserLogin - Enter  user name
+02:21:10.289 [main]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Entered user name : QAAutomationClasses@gmail.com
+02:21:10.292 [main]INFO  com.automationexcercise.testCases.TC02_UserLogin - Enter  password
+02:21:10.407 [main]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Entered password : QAAutomationClasses
+02:21:10.411 [main]INFO  com.automationexcercise.testCases.TC02_UserLogin - Click login Button
+02:21:12.214 [main]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Successfully clicked on login button
+02:21:12.231 [main]INFO  com.automationexcercise.testCases.TC02_UserLogin - Verify User home page title
+02:21:12.233 [main]INFO  com.automationexcercise.pageClasses.UserHomePage - Expected page title is: Automation Exercise
+02:21:12.243 [main]INFO  com.automationexcercise.pageClasses.UserHomePage - Actual Page tile is matching with expected page title value
+02:21:12.250 [main]INFO  com.automationexcercise.testCases.TC02_UserLogin - Click logout link
+02:21:13.765 [main]INFO  com.automationexcercise.pageClasses.UserHomePage - Clicked on logout link
+02:21:13.824 [AsyncHttpClient-1-4]WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+02:21:14.060 [main]INFO  com.automationexcercise.automationUtilities.BaseSteps - Closed  browser driver 
+02:21:14.062 [main]INFO  com.automationexcercise.automationUtilities.BaseSteps - Browser info passed from command line is :chrome
+02:21:14.107 [main]INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 127.0.6533.119 (resolved driver for Chrome 127)
+02:21:14.123 [main]INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dhawa\.cache\selenium\chromedriver\win64\127.0.6533.119\chromedriver.exe
+02:21:14.953 [main]INFO  com.automationexcercise.automationUtilities.BaseSteps - url  from .properties file is :https://automationexercise.com/
+02:21:14.953 [main]INFO  com.automationexcercise.automationUtilities.BaseSteps - Navigating to the URL
+02:21:17.816 [main]INFO  com.automationexcercise.testCases.TC01_OpenLoginPage - Click on signUp Or Log in Link
+02:21:19.265 [main]INFO  com.automationexcercise.pageClasses.HomePage - Clicked on Sign up or Log in Link
+02:21:19.265 [main]INFO  com.automationexcercise.testCases.TC01_OpenLoginPage - verify page title
+02:21:19.266 [main]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Expected page title is: Automation Exercise - Signup / Login
+02:21:19.280 [main]INFO  com.automationexcercise.pageClasses.SignUpLoginPage - Actual Page tile is matching with expected page title value
+02:21:19.464 [main]INFO  com.automationexcercise.automationUtilities.BaseSteps - Closed  browser driver 
